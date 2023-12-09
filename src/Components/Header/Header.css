@@ -1,0 +1,24 @@
+.header{
+    width: 100%;
+    padding: 40px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-brand a{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'DM Serif Display', serif;
+    
+}
+.navbar-collapse{
+    display: flex;
+    gap: 20px;
+    color: #fff;
+}
