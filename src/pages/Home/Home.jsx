@@ -1,10 +1,13 @@
 import './Home.css'
-import { NavLink } from 'react-router-dom';
 const Home=()=>{
     return(
         <div className="home">
-            <div className="head_image">
+            <div className="slider-item">
                 <div className="overlay"></div>
+                <div className="text-center">
+                    <h1>Enjoy delicious food <br /> at RestMet</h1>
+                    <a href="#">Get Started</a>
+                </div>
             </div>
         </div>
     )

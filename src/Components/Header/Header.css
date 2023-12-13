@@ -15,10 +15,20 @@
     color: #fff;
     font-size: 30px;
     font-family: 'DM Serif Display', serif;
+    font-weight: 800;
     
 }
 .navbar-collapse{
     display: flex;
     gap: 20px;
     color: #fff;
+}
+.active{
+    color: orange;
+}
+.pending{
+    color: orange;
+}
+.default{
+    color: white;
 }
