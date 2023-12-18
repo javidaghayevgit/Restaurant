@@ -1,16 +1,16 @@
-.slider-item{
-    background-image: url('../../images/hero_2.jpg.webp');
+.slider_item{
+    background-image: url('../../images/slider_3.jpg.webp');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center !important;
     height: 100vh;
-    min-height: 1000px;
     position: relative;
+    z-index: 0;
   }
   .overlay{
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.4);
     position: absolute;
     top: 0;
     left: 0;

@@ -13,21 +13,21 @@
 }
 .navbar-brand a{
     color: #fff;
-    font-size: 30px;
+    font-size: 24px;
     font-family: 'DM Serif Display', serif;
     font-weight: 800;
     
 }
 .navbar-collapse{
     display: flex;
-    gap: 20px;
+    gap: 40px;
     color: #fff;
 }
 .active{
-    color: orange;
+    color: #ffa323 !important;
 }
 .pending{
-    color: orange;
+    color: #ffa323 !important;
 }
 .default{
     color: white;
