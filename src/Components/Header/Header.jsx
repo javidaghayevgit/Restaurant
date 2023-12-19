@@ -2,8 +2,6 @@ import './Header.css'
 import { NavLink } from 'react-router-dom';
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosSend } from "react-icons/io";
-
-
 const Header=()=>{
     return(
         <div className="header">
