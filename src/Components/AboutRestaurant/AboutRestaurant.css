@@ -1,0 +1,84 @@
+.about_restaurant{
+    margin-top: 100px;
+}
+.about_restaurant_heading{
+    text-align: center;
+    position: relative;
+}
+.about_restaurant_heading h2{
+    font-size: 50px;
+    font-weight: 700 !important;
+}
+.about_restaurant_heading span{
+font-family: "Miss Fajardose", cursive;
+font-size: 100px;
+color: #ffa323;
+position: absolute;
+top: -55px;
+left: 0;
+right: 0;
+z-index: -1;
+}
+
+.about_restaurant_heading p{
+    line-height: 2;
+    font-size: 17px;    
+    color: rgb(80, 80, 80);
+    margin: 30px 0;
+}
+
+.about_restaurant_table{
+    background-image: url('../../images/bg_4.jpg.webp');
+    background-position: center center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-statistics{
+    display: flex;
+    justify-content: space-between;
+}
+.experienced,.customers,.menus,.staffs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.experienced span{
+    font-size: 40px;
+    font-weight: 500;
+}
+.experienced p{
+    font-size: 17px;
+    color: rgb(80, 80, 80);
+}
+.customers span{
+    font-size: 40px;
+    font-weight: 500;
+}
+.customers p{
+    font-size: 17px;
+    color: rgb(80, 80, 80);
+}
+.menus span{
+    font-size: 40px;
+    font-weight: 500;
+}
+.menus p{
+    font-size: 17px;
+    color: rgb(80, 80, 80);
+}
+.staffs span{
+    font-size: 40px;
+    font-weight: 500;
+}
+.staffs p{
+    font-size: 17px;
+    color: rgb(80, 80, 80);
+}

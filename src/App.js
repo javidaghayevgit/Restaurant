@@ -7,6 +7,7 @@ import Header from './Components/Header/Header'
 import Menu from './pages/Menu/Menu';
 import Blog from './pages/Blog/Blog';
 import Reservation from './pages/Reservation/Reservation';
+
 function App() {
   return (
     <div className="app">

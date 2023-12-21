@@ -3,6 +3,10 @@ import { NavLink } from 'react-router-dom';
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosSend } from "react-icons/io";
 const Header=()=>{
+    useEffect(() => {
+        window.scroll(0, 0);
+    }, []);
+    
     return(
         <div className="header">
             <div className="header_contact container">

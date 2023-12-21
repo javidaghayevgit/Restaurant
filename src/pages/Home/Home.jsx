@@ -1,5 +1,6 @@
 import './Home.css'
 import Button from '../../Components/Button/Button'
+import AboutRestaurant from '../../Components/AboutRestaurant/AboutRestaurant';
 const Home=()=>{
     return(
         <div className="home">
@@ -23,7 +24,7 @@ const Home=()=>{
                 </div>
             </div>
                 </div>
-                
+                <AboutRestaurant/>
         </div>
     )
 }
