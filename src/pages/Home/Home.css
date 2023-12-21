@@ -43,3 +43,15 @@
     display: flex;
     gap: 10px;
   }
+
+  .slider_btn :first-child:hover{
+    background: transparent;
+    color: #ffa323;
+    transition-duration: 0.5s;
+  }
+
+  .slider_btn :last-child:hover{
+    background: #fff;
+    color: #ffa323;
+    transition-duration: 0.5s;
+  }
