@@ -1,6 +1,6 @@
 import './Home.css'
 import Button from '../../Components/Button/Button'
-import AboutRestaurant from '../../Components/AboutRestaurant/AboutRestaurant';
+import AboutRestaurant from '../../Components/AboutRestaurant/AboutRestaurant'
 const Home=()=>{
     return(
         <div className="home">
@@ -19,7 +19,7 @@ const Home=()=>{
                 color={"tranparent"}
                 size={"lg"}
                 >
-                    {"Order Now"}
+                    {"View Menu"}
                 </Button>
                 </div>
             </div>
