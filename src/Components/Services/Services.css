@@ -1,0 +1,25 @@
+.services{
+    /* background: #fafafa; */
+}
+.services_heading{
+    text-align: center;
+    position: relative;
+}
+.services_heading h2{
+    font-size: 50px;
+    font-weight: 700 !important;
+}
+.services_heading span{
+font-family: "Miss Fajardose", cursive;
+font-size: 100px;
+color: #ffa323;
+position: absolute;
+top: -55px;
+left: 0;
+right: 0;
+z-index: 0;
+}
+.catering_services{
+    display: flex;
+    justify-content: space-between;
+}

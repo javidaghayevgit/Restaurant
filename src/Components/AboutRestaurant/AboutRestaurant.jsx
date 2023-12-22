@@ -9,7 +9,7 @@ useEffect(() => {
 
     const interval = setInterval(() => {
         setExperienced(prevExperienced => prevExperienced + 1);
-    }, 100);
+    }, 500);
 
     return () => clearInterval(interval);
 }, [experienced]);
@@ -20,7 +20,7 @@ useEffect(() => {
         }
         const interval = setInterval(()=>{
             setMenus(prevMenus => prevMenus + 1)
-        },18)
+        },90)
         return () => clearInterval(interval);
     },[menus])
 
@@ -31,7 +31,7 @@ useEffect(() => {
         }
         const interval = setInterval(()=>{
             setStaffs(prevStaffs => prevStaffs + 1)
-        },90)
+        },450)
         return () => clearInterval(interval)
     },[staffs])
 
@@ -41,8 +41,8 @@ useEffect(() => {
             return;
         }
         const interval = setInterval(()=>{
-            setCustomers(prevCustomers => prevCustomers + 12)
-        },0.12)
+            setCustomers(prevCustomers => prevCustomers + 15)
+        },)
         return () => clearInterval(interval)
     },[customers])
     return(
