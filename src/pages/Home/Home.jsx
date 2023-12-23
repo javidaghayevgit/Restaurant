@@ -1,6 +1,6 @@
 import './Home.css'
 import Button from '../../Components/Button/Button'
-import AboutRestaurant from '../../Components/AboutRestaurant/AboutRestaurant'
+import AboutRestaurant from '../../Components/AboutRestaurant/AboutRestaurant';
 import Services from '../../Components/Services/Services'
 const Home=()=>{
     return(
