@@ -11,10 +11,12 @@ const MenuCategory=({category,meals})=>{
                     return    <div className='card'>
                             <img src={meal.image} alt="" />
                             <div className="meal_name_and_ingredients">
-                                <h2>{meal.name}</h2>
+                                <h3>{meal.name}</h3>
                                 <span>{meal.ingredients}</span>
                                 </div>
-                                <div className="meal_price">{`$${meal.price}`}</div>
+                                <div className="meal_price">
+                                    <span>{`$${meal.price}`}</span>
+                                    </div>
                         </div>
                     })
                 }
