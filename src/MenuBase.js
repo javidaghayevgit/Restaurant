@@ -1,12 +1,8 @@
 const menu = [
-    {
-        "categories": [
             {
                 "id": 1,
-                category:
-                    {
-                    "title": "Breakfast",
-                    meals: [ 
+                    "category": "Breakfast",
+                    "meals": [ 
                         {
                         "image": "https://preview.colorlib.com/theme/appetizer/images/breakfast-1.jpg.webp",
                         "name": "Grilled Beef with potatoes",
@@ -26,15 +22,11 @@ const menu = [
                         "price": 39
                     },
                 ]
-                }
-            
             },
             {
                 "id": 2,
-                category: [ 
-                    {
-                    "title": "Lunch",
-                    meals: [ 
+                    "category": "Lunch",
+                    "meals": [ 
                         {
                         "image": "https://preview.colorlib.com/theme/appetizer/images/lunch-1.jpg.webp",
                         "name": "Grilled Beef with potatoes",
@@ -54,15 +46,11 @@ const menu = [
                         "price": 39
                     },
                 ]
-                }
-            ]
-            },
+                },
             {
                 "id": 3,
-                category: [ 
-                    {
-                    "title": "Dinner",
-                    meals: [ 
+                    "category": "Dinner",
+                    "meals": [ 
                         {
                         "image": "https://preview.colorlib.com/theme/appetizer/images/dinner-1.jpg.webp",
                         "name": "Grilled Beef with potatoes",
@@ -82,15 +70,11 @@ const menu = [
                         "price": 39
                     },
                 ]
-                }
-            ]
             },
             {
                 "id": 4,
-                category: [ 
-                    {
-                    "title": "Desserts",
-                    meals: [ 
+                    "category": "Desserts",
+                    "meals": [ 
                         {
                         "image": "https://preview.colorlib.com/theme/appetizer/images/dessert-1.jpg.webp",
                         "name": "Grilled Beef with potatoes",
@@ -109,16 +93,12 @@ const menu = [
                         "ingredients": "Meat, Potatoes, Rice, Tomatoe",
                         "price": 39
                     },
-                ]
-                }
             ]
             },
             {
                 "id": 5,
-                category: [ 
-                    {
-                    "title": "Wine Card",
-                    meals: [ 
+                    "category": "Wine Card",
+                    "meals": [ 
                         {
                         "image": "https://preview.colorlib.com/theme/appetizer/images/wine-1.jpg.webp",
                         "name": "Grilled Beef with potatoes",
@@ -137,16 +117,12 @@ const menu = [
                         "ingredients": "Meat, Potatoes, Rice, Tomatoe",
                         "price": 39
                     },
-                ]
-                }
             ]
             },
             {
                 "id": 6,
-                category: [ 
-                    {
-                    "title": "Drinks",
-                    meals: [ 
+                    "category": "Drinks",
+                    "meals": [ 
                         {
                         "image": "https://preview.colorlib.com/theme/appetizer/images/drink-1.jpg.webp",
                         "name": "Grilled Beef with potatoes",
@@ -165,11 +141,7 @@ const menu = [
                         "ingredients": "Meat, Potatoes, Rice, Tomatoe",
                         "price": 39
                     },
-                ]
-                }
             ]
             }
         ]
-    }
-    ]
 export default menu;
