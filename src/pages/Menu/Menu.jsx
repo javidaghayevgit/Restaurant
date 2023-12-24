@@ -3,7 +3,7 @@ import menu from '../../MenuBase';
 import MenuCard from '../../Components/MenuCategory/MenuCategory';
 const Menu=()=>{
     return(
-        <div className='menu section'>
+        <div className='menu'>
             <div className="menu_heading">
             <span>Specialties</span>
             <h2>Our Menu</h2>

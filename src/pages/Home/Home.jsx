@@ -2,6 +2,7 @@ import './Home.css'
 import Button from '../../Components/Button/Button'
 import AboutRestaurant from '../../Components/AboutRestaurant/AboutRestaurant';
 import Services from '../../Components/Services/Services'
+import Menu from '../Menu/Menu';
 const Home=()=>{
     return(
         <div className="home">
@@ -27,6 +28,7 @@ const Home=()=>{
                 </div>
                 <AboutRestaurant/>
                 <Services/>
+                <Menu/>
         </div>
     )
 }
