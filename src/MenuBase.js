@@ -1,6 +1,6 @@
 const menu = [
     {
-        categories: [
+        "categories": [
             {
                 "id": 1,
                 category:

@@ -1,7 +1,5 @@
 import './Menu.css'
 import menu from '../../MenuBase';
-import MenuCard from '../../Components/menuCard/menuCard'
-
 const Menu=()=>{
     return(
         <div className='menu section'>
@@ -11,8 +9,9 @@ const Menu=()=>{
             </div>
             {
                 menu.map((categories)=>{
-                    console.log(categories);
-                    <MenuCard/>
+                  return  (
+                    <menuCard/>
+                  )
                 })
             }
         </div>
