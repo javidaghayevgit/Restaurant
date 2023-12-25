@@ -1,0 +1,60 @@
+.chefs{
+    padding: 100px 0;
+    background-color: red;
+}
+.chefs_heading{
+    text-align: center;
+    position: relative;
+}
+.chefs_heading h2{
+    font-size: 50px;
+    font-weight: 700 !important;
+}
+.chefs_heading span{
+font-family: "Miss Fajardose", cursive;
+font-size: 100px;
+color: #ffa323;
+position: absolute;
+top: -55px;
+left: 0;
+right: 0;
+z-index: -1;
+}
+.about_chefs{
+    display: flex;
+    justify-content: space-between;
+}
+.chef{
+    width: 24%;
+    height: 300px;
+}
+.chef img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.chef h3{
+
+    font-size: 20px;
+    margin-bottom:  10px;
+}
+
+.chef span{
+    color: #939393;
+    display: block;
+}
+
+.chef p{
+    color: #4e4e4e;
+    margin: 20px 0;
+    font-size: 17px;
+    line-height: 2rem;
+}
+
+.chef_media{
+    color: orange;
+    display: flex;
+    gap: 6px;
+    font-size: 20px;
+}
