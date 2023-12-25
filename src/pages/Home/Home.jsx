@@ -3,6 +3,7 @@ import Button from '../../Components/Button/Button'
 import AboutRestaurant from '../../Components/AboutRestaurant/AboutRestaurant';
 import Services from '../../Components/Services/Services'
 import Menu from '../Menu/Menu';
+import MakeReservation from '../../Components/MakeReservation/MakeReservation';
 const Home=()=>{
     return(
         <div className="home">
@@ -29,6 +30,7 @@ const Home=()=>{
                 <AboutRestaurant/>
                 <Services/>
                 <Menu/>
+                <MakeReservation/>
         </div>
     )
 }

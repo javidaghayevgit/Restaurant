@@ -20,6 +20,13 @@
     padding: 30px 20px;
     border-radius: 6px;
 }
+.card:hover{
+    background: orange;
+    transition: 0.5s; 
+}
+.card:hover .meal_price span{
+    color: #fff;
+}
 .card img{
     width: 100px;
     height: 100px;
