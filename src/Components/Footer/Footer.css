@@ -1,0 +1,11 @@
+footer{
+    padding: 100px 30px;
+    display: flex;
+}
+.footer_brand,.open_hours,.newsletter,.instagram_photo{
+    width: 23%;
+}
+.footer_open_hours ul li{
+    color: rgb(80, 80, 80);
+    font-weight: 400;
+}

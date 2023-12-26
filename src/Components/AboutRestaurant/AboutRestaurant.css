@@ -42,7 +42,7 @@ z-index: -1;
     display: flex;
     justify-content: space-between;
 }
-.experienced,.customers,.menus,.staffs{
+.experienced,.statistics_customers,.menus,.staffs{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,11 +58,11 @@ z-index: -1;
     font-size: 17px;
     color: rgb(80, 80, 80);
 }
-.customers span{
+.statistics_customers span{
     font-size: 40px;
     font-weight: 500;
 }
-.customers p{
+.statistics_customers p{
     font-size: 17px;
     color: rgb(80, 80, 80);
 }

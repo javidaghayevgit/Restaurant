@@ -60,7 +60,7 @@ useEffect(() => {
                         <span>{experienced}</span>
                         <p>Years of Experienced</p>
                     </div>
-                    <div className='customers'>
+                    <div className='statistics_customers'>
                         <span>{customers}</span>
                         <p>Happy Customers</p>
                     </div>

@@ -6,6 +6,7 @@ import Menu from '../Menu/Menu';
 import MakeReservation from '../../Components/MakeReservation/MakeReservation';
 import Footer from '../../Components/Footer/Footer';
 import Chefs from '../../Components/Chefs/Chefs';
+import Customers from '../../Components/Customers/Customers';
 const Home=()=>{
     return(
         <div className="home">
@@ -34,7 +35,8 @@ const Home=()=>{
                 <Menu/>
                 <MakeReservation/>
                 <Chefs/>
-                {/* <Footer/> */}
+                {/* <Customers/> */}
+                <Footer/>
         </div>
     )
 }

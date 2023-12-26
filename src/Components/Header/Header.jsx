@@ -15,7 +15,7 @@ const Header=()=>{
                     <span>youremail@email.com</span>
                 </div>
                 <div className='open_hours'>
-                    <p>Open hours: Monday - Sunday 8:00AM - 9:00PM</p>
+                    <p>Open hours: Monday-Sunday 8:00AM-9:00PM</p>
                 </div>
             </div>
             <div className="navbar container">
