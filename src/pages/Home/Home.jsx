@@ -34,7 +34,7 @@ const Home=()=>{
                 <Menu/>
                 <MakeReservation/>
                 <Chefs/>
-                <Footer/>
+                {/* <Footer/> */}
         </div>
     )
 }
