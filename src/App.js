@@ -1,12 +1,12 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home/Home'
-import About from './pages/About/About'
-import Contact from './pages/Contact/Contact'
-import Header from './Components/Header/Header'
-import Menu from './pages/Menu/Menu';
-import Blog from './pages/Blog/Blog';
-import Reservation from './pages/Reservation/Reservation';
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Header from './components/Header'
+import Menu from './pages/Menu/index'
+import Blog from './pages/Blog';
+import Reservation from './pages/Reservation';
 function App() {
   return (
     <div className="app">
