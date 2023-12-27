@@ -1,50 +1,10 @@
 import '../AboutRestaurant/style.css'
 import { useState, useEffect } from 'react'
 const AboutRestaurant=()=>{
-    let [experienced, setExperienced] = useState(0);
-useEffect(() => {
-    if (experienced >= 18) {
-        return;
-    }
-
-    const interval = setInterval(() => {
-        setExperienced(prevExperienced => prevExperienced + 1);
-    }, 500);
-
-    return () => clearInterval(interval);
-}, [experienced]);
-    let [menus,setMenus] = useState(0);
-    useEffect(()=>{
-        if(menus>=100){
-            return;
-        }
-        const interval = setInterval(()=>{
-            setMenus(prevMenus => prevMenus + 1)
-        },90)
-        return () => clearInterval(interval);
-    },[menus])
-
-    let [staffs,setStaffs] = useState(0)
-    useEffect(()=>{
-        if(staffs>=20){
-            return;
-        }
-        const interval = setInterval(()=>{
-            setStaffs(prevStaffs => prevStaffs + 1)
-        },450)
-        return () => clearInterval(interval)
-    },[staffs])
-
-    let [customers, setCustomers] = useState(0);
-    useEffect(()=>{
-        if(customers>=15000){
-            return;
-        }
-        const interval = setInterval(()=>{
-            setCustomers(prevCustomers => prevCustomers + 15)
-        },)
-        return () => clearInterval(interval)
-    },[customers])
+    let [experienced, setExperienced] = useState(18);
+    let [menus,setMenus] = useState(100);
+    let [staffs,setStaffs] = useState(20)
+    let [customers, setCustomers] = useState(15000);
     return(
         <div className="about_restaurant">
             <div className="about_restaurant_heading container">

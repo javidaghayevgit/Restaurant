@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Miss+Fajardose&family=Monoton&display=swap');
-
 *{
   margin: 0;
   padding: 0;
@@ -11,12 +10,8 @@
   outline: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 .container{
   width: 100%;
   padding: 0 200px;
   margin: 0 auto;
-}
-.section{
-  margin-top: 120px;  
 }

@@ -65,7 +65,7 @@ const Footer=()=>{
                     </Button>
             </div>
             <div className="instagram_photos">
-
+                
             </div>
         </footer>
     )

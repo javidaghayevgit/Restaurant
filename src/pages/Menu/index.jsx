@@ -1,5 +1,5 @@
 import '../Menu/style.css'
-import menu from '../../data/MenuBase';
+import menu from '../../data/menu';
 import MenuCard from '../../components/MenuCategory'
 const MenuPage=()=>{
     return(
