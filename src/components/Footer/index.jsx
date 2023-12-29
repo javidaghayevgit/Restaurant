@@ -72,6 +72,7 @@ const Footer=()=>{
                     </Button>
             </div>
             <div className="instagram_photos">
+                <h3>Instagram</h3>
                 <div className="up_group">
                 <img src={Instagram_1} alt="" />
                 <img src={Instagram_2} alt="" />

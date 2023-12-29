@@ -55,6 +55,17 @@ footer{
 .newsletter input{
     width: 100%;
     height: 50px;
+    text-align: center;
+    margin: 0;
+    border: none;
+    font-size: 16px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+    margin-bottom: 10px;
+    border-radius: 2px;
 }
 .newsletter h3{
     color: #fff;
@@ -72,14 +83,8 @@ footer{
     display: flex;
     flex-direction: column;
 }
-
-.up_group img{
-    width: 50px;
-    height: 40px;
-}
-
-
-.down_group img{
-    width: 40px;
-    height: 30px;
+.instagram_photos h3{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 2rem;
 }
