@@ -16,12 +16,19 @@ const Footer=()=>{
                 <h3>Aggetizer</h3>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 <div className="footer_brand_media">
+                    <div>
                 <TiSocialTwitter />
+                    </div>
+                    <div>
                     <TiSocialFacebook />
+                    </div>
+                    <div>
                     <FaInstagram />
+                    </div>
                 </div>
             </div>
             <div className="footer_open_hours">
+                <h3>Open Hours</h3>
                 <ul>
                     <li>
                         <span>Monday</span>
@@ -65,7 +72,16 @@ const Footer=()=>{
                     </Button>
             </div>
             <div className="instagram_photos">
-                
+                <div className="up_group">
+                <img src={Instagram_1} alt="" />
+                <img src={Instagram_2} alt="" />
+                <img src={Instagram_3} alt="" />
+                </div>
+                <div className="down_group">
+                <img src={Instagram_4} alt="" />
+                <img src={Instagram_5} alt="" />
+                <img src={Instagram_6} alt="" />
+                </div>
             </div>
         </footer>
     )

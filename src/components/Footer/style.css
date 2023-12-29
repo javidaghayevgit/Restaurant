@@ -1,11 +1,85 @@
 footer{
-    padding: 100px 30px;
+    padding: 96px 32px;
     display: flex;
+    justify-content: space-between;
+    background-color: #141313;
 }
-.footer_brand,.open_hours,.newsletter,.instagram_photo{
+.footer_brand,.footer_open_hours,.newsletter,.instagram_photos{
     width: 23%;
 }
+.footer_brand h3{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+.footer_brand p{
+    color: #939393;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+.footer_brand_media{
+    display: flex;
+    gap: 14px;
+}
+.footer_brand_media > div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.footer_open_hours h3{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+.footer_open_hours ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
 .footer_open_hours ul li{
-    color: rgb(80, 80, 80);
-    font-weight: 400;
+    color: #939393;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+
+}
+.newsletter input{
+    width: 100%;
+    height: 50px;
+}
+.newsletter h3{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+.newsletter p{
+    color: #939393;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 30px 0;
+    line-height: 2rem;
+}
+.instagram_photos{
+    display: flex;
+    flex-direction: column;
+}
+
+.up_group img{
+    width: 50px;
+    height: 40px;
+}
+
+
+.down_group img{
+    width: 40px;
+    height: 30px;
 }
