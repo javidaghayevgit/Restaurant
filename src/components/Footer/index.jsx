@@ -73,16 +73,7 @@ const Footer=()=>{
             </div>
             <div className="instagram_photos">
                 <h3>Instagram</h3>
-                <div className="up_group">
                 <img src={Instagram_1} alt="" />
-                <img src={Instagram_2} alt="" />
-                <img src={Instagram_3} alt="" />
-                </div>
-                <div className="down_group">
-                <img src={Instagram_4} alt="" />
-                <img src={Instagram_5} alt="" />
-                <img src={Instagram_6} alt="" />
-                </div>
             </div>
         </footer>
     )

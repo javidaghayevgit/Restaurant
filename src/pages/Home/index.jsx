@@ -6,7 +6,7 @@ import Menu from '../Menu/index'
 import MakeReservation from '../../components/MakeReservation';
 import Footer from '../../components/Footer';
 import Chefs from '../../components/Chefs';
-// import Customers from '../../Components/Customers/Customers';
+import Customers from '../../components/Customers/index';
 const HomePage=()=>{
     return(
         <div id="home">
@@ -35,7 +35,7 @@ const HomePage=()=>{
                 <Menu/>
                 <MakeReservation/>
                 <Chefs/>
-                {/* <Customers/> */}
+                <Customers/>
                 <Footer/>
         </div>
     )
