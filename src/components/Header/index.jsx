@@ -49,8 +49,8 @@ const Header=()=>{
                     Contact
                 </NavLink>
                         </li>
-                        <li className='reservation'>
-                        <NavLink to='/reservation' className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : "default"}>
+                        <li className='book'>
+                        <NavLink to='book' className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : "default"}>
                     Book a table
                 </NavLink>
                         </li>

@@ -6,7 +6,7 @@ import Contact from './pages/Contact/index'
 import Header from './components/Header/index'
 import Menu from './pages/Menu/index'
 import Blog from './pages/Blog/index'
-import Reservation from './pages/Reservation/index';
+import Book from './pages/Book/index';
 function App() {
   return (
     <div className="app">
@@ -18,7 +18,7 @@ function App() {
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/blog' element={<Blog/>}/> 
-    <Route path='/reservation' element={<Reservation/>}/>
+    <Route path='/book' element={<Book/>}/>
     </Routes>
     </BrowserRouter>
     </div>

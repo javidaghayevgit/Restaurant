@@ -2,7 +2,7 @@ import '../Home/style.css'
 import Button from '../../components/Button'
 import AboutRestaurant from '../../components/AboutRestaurant';
 import Services from '../../components/Services'
-import Menu from '../Menu/index'
+import MenuSpecialties from '../../components/MenuSpecialties/index'
 import MakeReservation from '../../components/MakeReservation';
 import Footer from '../../components/Footer';
 import Chefs from '../../components/Chefs';
@@ -32,7 +32,7 @@ const HomePage=()=>{
                 </div>
                 <AboutRestaurant/>
                 <Services/>
-                <Menu/>
+                <MenuSpecialties/>
                 <MakeReservation/>
                 <Chefs/>
                 <Customers/>

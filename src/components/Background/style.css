@@ -9,13 +9,14 @@
     display: flex;
     justify-content: center;
     align-items: end;
-    color: #fff;
-    font-size: 30px;
-    font-weight: 700;
 }
 .background h1{
     margin-bottom: 50px;
     z-index: 1;
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
 }
 .background_overlay{
     width: 100%;
