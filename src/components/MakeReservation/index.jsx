@@ -1,5 +1,6 @@
 import '../MakeReservation/style.css'
 import Button from '../Button';
+import { AiOutlineExclamation } from "react-icons/ai";
 const MakeReservation=()=>{
     return(
         <div className="make_reservation">
@@ -44,7 +45,11 @@ const MakeReservation=()=>{
                 </div>
             </div>
             <div className="restaurant_place">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380.67506517814167!2d-74.00283794365154!3d40.7342093763366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259944267a79f%3A0xbccc191d636273a9!2sBobo!5e0!3m2!1saz!2saz!4v1703513967511!5m2!1saz!2saz"></iframe>
+                <div className="restaurant_place_icon">
+            <AiOutlineExclamation />
+                </div>
+                <span>Oops! Something went wrong.</span>
+                <p>This page didn't load Google Maps correctly. See the JavaScript console for technical details.</p>
             </div>
         </div>
     )

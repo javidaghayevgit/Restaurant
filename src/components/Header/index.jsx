@@ -50,7 +50,7 @@ const Header=()=>{
                 </NavLink>
                         </li>
                         <li className='book'>
-                        <NavLink to='book' className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : "default"}>
+                        <NavLink to='book' className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "default" : "default"}>
                     Book a table
                 </NavLink>
                         </li>

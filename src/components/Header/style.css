@@ -57,10 +57,11 @@
     gap: 40px;
     color: #fff;
 }
-.reservation{
+.header .book{
     background-color: #ffa323;
     padding: 15px;
     border-radius: 6px;
+    cursor: pointer;
 }
 .active{
     color: #ffa323 !important;
