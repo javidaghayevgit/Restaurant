@@ -4,11 +4,7 @@ import { TiSocialTwitter } from "react-icons/ti";
 import { FaInstagram } from "react-icons/fa6";
 import Button from '../Button';
 import Instagram_1 from '../../assets/images/about/insta-1.jpg.webp'
-import Instagram_2 from '../../assets/images/about/insta-2.jpg.webp'
-import Instagram_3 from '../../assets/images/about/insta-3.jpg.webp'
-import Instagram_4 from '../../assets/images/about/insta-4.jpg.webp'
-import Instagram_5 from '../../assets/images/about/insta-5.jpg.webp'
-import Instagram_6 from '../../assets/images/about/insta-6.jpg.webp'
+import { Link } from 'react-router-dom'
 const Footer=()=>{
     return(
         <footer>
@@ -17,13 +13,19 @@ const Footer=()=>{
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 <div className="footer_brand_media">
                     <div>
+                        <Link to={"#"} className='icon'>
                 <TiSocialTwitter />
+                        </Link>
                     </div>
                     <div>
+                    <Link to={"#"} className='icon'>
                     <TiSocialFacebook />
+                    </Link>
                     </div>
                     <div>
+                    <Link to={"#"} className='icon'>
                     <FaInstagram />
+                    </Link>
                     </div>
                 </div>
             </div>

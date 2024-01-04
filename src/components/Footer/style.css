@@ -35,6 +35,10 @@ footer{
     font-size: 1rem;
 }
 
+.footer_brand_media > div > .icon{
+    color: #fff;
+}
+
 .footer_open_hours h3{
     color: #fff;
     font-size: 20px;

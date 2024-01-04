@@ -7,6 +7,7 @@ import { TiSocialFacebook } from "react-icons/ti";
 import { TiSocialTwitter } from "react-icons/ti";
 import { FaGooglePlusG } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
+import { Link } from 'react-router-dom'
 const Chefs=()=>{
     return(
         <div className="chefs">
@@ -23,10 +24,18 @@ const Chefs=()=>{
                     <span>Restaurant Owner</span>
                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                     <div className="chef_media">
+                        <Link to={"#"} className='icon'>
                     <TiSocialTwitter />
+                        </Link>
+                        <Link to={"#"} className='icon'>
                     <TiSocialFacebook />
+                        </Link>
+                        <Link to={"#"} className='icon'>
                     <FaGooglePlusG />
+                        </Link>
+                        <Link to={"#"} className='icon'>
                     <FaInstagram />
+                        </Link>
                     </div>
                 </div>
                 <div className="chef">
@@ -37,10 +46,18 @@ const Chefs=()=>{
                     <span>Head Chef</span>
                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                     <div className="chef_media">
+                    <Link to={"#"} className='icon'>
                     <TiSocialTwitter />
+                        </Link>
+                        <Link to={"#"} className='icon'>
                     <TiSocialFacebook />
+                        </Link>
+                        <Link to={"#"} className='icon'>
                     <FaGooglePlusG />
+                        </Link>
+                        <Link to={"#"} className='icon'>
                     <FaInstagram />
+                        </Link>
                     </div>
                 </div>
                 <div className="chef">
@@ -51,10 +68,18 @@ const Chefs=()=>{
                     <span>Chef</span>
                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                     <div className="chef_media">
+                    <Link to={"#"} className='icon'>
                     <TiSocialTwitter />
+                        </Link>
+                        <Link to={"#"} className='icon'>
                     <TiSocialFacebook />
+                        </Link>
+                        <Link to={"#"} className='icon'>
                     <FaGooglePlusG />
+                        </Link>
+                        <Link to={"#"} className='icon'>
                     <FaInstagram />
+                        </Link>
                     </div>
                 </div>
                 <div className="chef">
@@ -65,10 +90,18 @@ const Chefs=()=>{
                     <span>Chef</span>
                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                     <div className="chef_media">
+                    <Link to={"#"} className='icon'>
                     <TiSocialTwitter />
+                        </Link>
+                        <Link to={"#"} className='icon'>
                     <TiSocialFacebook />
+                        </Link>
+                        <Link to={"#"} className='icon'>
                     <FaGooglePlusG />
+                        </Link>
+                        <Link to={"#"} className='icon'>
                     <FaInstagram />
+                        </Link>
                     </div>
                 </div>
             </div>

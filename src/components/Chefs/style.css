@@ -56,8 +56,11 @@ z-index: -1;
 }
 
 .chef_media{
-    color: orange;
     display: flex;
     gap: 6px;
+}
+.chef_media .icon{
+    color: orange;
     font-size: 20px;
+    cursor: pointer;
 }
