@@ -9,7 +9,7 @@ const Footer=()=>{
     return(
         <footer>
             <div className="footer_brand">
-                <h3>Aggetizer</h3>
+                <h3>Cafeen</h3>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 <div className="footer_brand_media">
                     <div>

@@ -20,7 +20,7 @@ const Header=()=>{
             </div>
             <div className="navbar container">
                 <div className="navbar-brand">
-                    <a href='/'>Aggetizer</a>
+                    <a href='/'>Cafeen</a>
                 </div>
                 <div className="navbar-collapse">
                     <ul>
