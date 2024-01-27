@@ -2,10 +2,16 @@ import '../Header/style.css'
 import { NavLink } from 'react-router-dom';
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosSend } from "react-icons/io";
+import { IoIosMenu } from "react-icons/io";
+import { useState } from 'react'
 const Header=()=>{
+    const [menuBox,setMenuBox] = useState(false)
+    function menuIcon(){
+        setMenuBox(!menuBox)
+    }
     return(
         <div className="header">
-            <div className="header_contact container">
+            <div className="header_contact">
                 <div className='contact-number'>
                 <FaPhoneAlt />
                     <span>+ 1235 2355 98</span>
@@ -18,7 +24,7 @@ const Header=()=>{
                     <p>Open hours: Monday-Sunday 8:00AM-9:00PM</p>
                 </div>
             </div>
-            <div className="navbar container">
+            <div className="navbar">
                 <div className="navbar-brand">
                     <a href='/'>Cafeen</a>
                 </div>
@@ -56,7 +62,13 @@ const Header=()=>{
                         </li>
                     </ul>
                 </div>
+                    <div onClick={()=>menuIcon()} className='menu_icon'>
+                        <IoIosMenu />
+                    </div>
             </div>
+           {
+              menuBox? <div className="menu_box"></div> : !menuBox
+           }
         </div>
     )
 }

@@ -14,6 +14,7 @@
     justify-content: space-between;
     align-items: center;
     background: rgba(0,0,0,0.4);
+    padding: 0 200px;
 }
 .contact-number{
     display: flex;
@@ -43,6 +44,7 @@
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    padding: 0 200px;
 }
 .navbar-brand a{
     color: #fff;
@@ -71,4 +73,17 @@
 }
 .default{
     color: white;
+}
+.menu_icon{
+    color: #fff;
+    font-size: 30px;
+    /* display: none; */
+}
+.menu_box{
+    /* padding: 20px 10px; */
+    /* background: #000000; */
+    background-color: red;
+    height: 300px;
+    /* display: none; */
+    position: relative;
 }
