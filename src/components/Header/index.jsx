@@ -7,7 +7,7 @@ import { useState } from 'react'
 const Header=()=>{
     const [menuBox,setMenuBox] = useState(false)
     function menuIcon(){
-        setMenuBox(!menuBox)
+        setMenuBox((prevMenuBox) => !prevMenuBox);
     }
     return(
         <div className="header">
@@ -67,7 +67,7 @@ const Header=()=>{
                     </div>
             </div>
            {
-              menuBox? <div className="menu_box"></div> : !menuBox
+              menuBox? <div className={`menu_box ${menuBox ? 'active' : ''}`}></div> : null
            }
         </div>
     )

@@ -1,11 +1,11 @@
 .header{
     width: 100%;
     z-index: 9;
-    /* position: fixed; */
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
 }
 .header_contact{
     height: 40px;
@@ -79,11 +79,17 @@
     font-size: 30px;
     /* display: none; */
 }
-.menu_box{
-    /* padding: 20px 10px; */
-    /* background: #000000; */
-    background-color: red;
-    height: 300px;
-    /* display: none; */
-    position: relative;
+.menu_box {
+  opacity: 0;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+  transition: opacity 0.5s ease, height 0.5s ease, padding 0.5s ease;
+}
+
+.menu_box.active {
+  opacity: 1;
+  height: 200px;
+  padding: 10px;
 }
