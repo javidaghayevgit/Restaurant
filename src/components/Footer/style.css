@@ -2,6 +2,7 @@ footer{
     padding: 96px 32px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: #141313;
 }
 .footer_brand,.footer_open_hours,.newsletter,.instagram_photos{

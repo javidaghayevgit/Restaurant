@@ -24,6 +24,7 @@ z-index: -1;
 .about_chefs{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .chef{
     width: 24%;

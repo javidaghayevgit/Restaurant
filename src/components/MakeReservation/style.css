@@ -34,6 +34,7 @@ z-index: -1;
     margin-bottom: 30px;
     
 }
+
 .reservation_form form .form_group{
     width: 48%;
     display: flex;
@@ -69,6 +70,7 @@ z-index: -1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .restaurant_place_icon{
